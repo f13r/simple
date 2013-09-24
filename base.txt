@@ -1,0 +1,42 @@
+delimiter $$
+
+CREATE TABLE `test`.`holdings` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `created_at` datetime NOT NULL,
+  `sum` int(11) NOT NULL,
+  `plan` text NOT NULL,
+  `payment_at` datetime DEFAULT NULL,
+  `date_end_contract` datetime DEFAULT NULL,
+  `url_picture` varchar(150) DEFAULT NULL,
+  `info` text,
+  `user_id` int(11) NOT NULL,
+  `status` tinyint(4) DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8$$
+
+
+
+delimiter $$
+
+CREATE TABLE `test`.`users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(150) NOT NULL,
+  `so_name` varchar(150) NOT NULL,
+  `patronymic` varchar(150) NOT NULL,
+  `email` varchar(150) NOT NULL,
+  `phone` varchar(150) NOT NULL,
+  `country` varchar(150) DEFAULT NULL,
+  `city` varchar(150) DEFAULT NULL,
+  `skype` varchar(150) NOT NULL,
+  `password` varchar(45) NOT NULL,
+  `adicional_email` varchar(150) DEFAULT NULL,
+  `adicional_phone` varchar(150) DEFAULT NULL,
+  `adicional_info` text,
+  `referal` int(11) DEFAULT NULL,
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  `role` varchar(150) DEFAULT 'user',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8$$
+
+

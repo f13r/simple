@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/var/www/cabinet/application/controllers/controller_holdings.php</file>
+        <file>file:/var/www/cabinet/application/models/model_holdings.php</file>
+        <file>file:/var/www/cabinet/application/models/model_account.php</file>
+        <file>file:/var/www/cabinet/application/views/holdingsAdd_view.php</file>
+        <file>file:/var/www/cabinet/application/views/holdings_view.php</file>
+        <file>file:/var/www/cabinet/application/core/model.php</file>
+        <file>file:/var/www/cabinet/application/controllers/controller_account.php</file>
+        <file>file:/var/www/cabinet/application/core/view.php</file>
+        <file>file:/var/www/cabinet/application/core/route.php</file>
+        <file>file:/var/www/cabinet/application/core/controller.php</file>
+    </open-files>
+</project-private>
